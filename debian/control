@@ -1,0 +1,24 @@
+Source: sh
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any (>= 1.7),
+               golang-github-kr-pretty-dev
+Standards-Version: 4.0.0
+Homepage: https://github.com/mvdan/sh
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/sh.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/sh.git
+XS-Go-Import-Path: github.com/mvdan/sh
+Testsuite: autopkgtest-pkg-go
+
+Package: sh
+Architecture: any
+Built-Using: ${misc:Built-Using}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: A shell parser and formatter 
+ shfmt formats shell programs. It can use tabs or any number of spaces
+ to indent.  Supports POSIX Shell, Bash and mksh.  You can feed it standard
+ input, any number of files or any number of directories to recurse into.

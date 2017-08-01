@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sh
+Source: https://github.com/mvdan/sh
+
+Files: *
+Copyright: 2016 Daniel Martí
+License: BSD-3-clause
+
+Files: debian/*
+Copyright: 2017 Mike Mestnik) (The Archmage forever <TODO>
+License: BSD-3-clause
+Comment: Debian packaging is licensed under the same terms as upstream
+
+License: BSD-3-clause
+TODO

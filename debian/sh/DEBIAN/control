@@ -1,0 +1,14 @@
+Package: sh
+Version: 2.0-beta1-1
+Architecture: i386
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 3894
+Depends: libc6 (>= 2.3.6-6~)
+Built-Using: golang-1.7 (= 1.7.4-2)
+Section: devel
+Priority: extra
+Homepage: https://github.com/mvdan/sh
+Description: A shell parser and formatter
+ shfmt formats shell programs. It can use tabs or any number of spaces
+ to indent.  Supports POSIX Shell, Bash and mksh.  You can feed it standard
+ input, any number of files or any number of directories to recurse into.
